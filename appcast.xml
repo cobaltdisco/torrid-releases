@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Torrid</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sat, 12 Sep 2026 04:32:37 +0800</pubDate>
+            <link>https://github.com/cobaltdisco/torrid-releases</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Torrid 0.1.0</h2>
+<p>First release. A download manager for the Mac: plain files, BitTorrent, and video links.</p>
+<ul>
+  <li>Downloads: several connections per file, pause and resume, automatic retry after the network comes back, one global speed limit shared by everything.</li>
+  <li>BitTorrent: magnet links and .torrent files, choose which files to download, seeding with ratio and time limits, DHT / PEX / local discovery.</li>
+  <li>Video links: an optional video tool fetched on demand (verified before use) and an embedded browser that can save media as it plays, including sites that need a login.</li>
+  <li>Quit, crash, sleep and wake all keep your downloads intact; nothing runs after you quit.</li>
+  <li>Requires macOS 26. Runs natively on Apple Silicon and Intel Macs. Free software under GPL-3.0-or-later.</li>
+</ul>
+<h2>Torrid 0.1.0（简体中文）</h2>
+<p>第一个版本。Mac 上的下载器：普通文件、BT、视频链接。</p>
+<ul>
+  <li>普通下载：一个文件多段同时下、暂停继续、断网恢复后自动续、一个全局限速所有任务共享。</li>
+  <li>BT：磁力链与 .torrent 文件、只下选中的文件、按分享率 / 时长做种、DHT / PEX / 本地发现。</li>
+  <li>视频链接：按需获取的视频工具（使用前验证），以及能在播放时保存媒体的内嵌浏览器，需要登录的站点也能用。</li>
+  <li>退出、崩溃、休眠唤醒都不会弄坏任务；退出后不会有任何东西在后台跑。</li>
+  <li>需要 macOS 26；Apple Silicon 与 Intel 都是原生运行。自由软件，GPL-3.0-or-later。</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.0/Torrid-0.1.0.dmg" length="21307203" type="application/octet-stream" sparkle:edSignature="0xCER16EpstOH0bR90PSon9hoZNzizTtpnTrgXyL3rUFS5fvKkYi97WWZf86VghAAWC2ReEIyAB9Jf/iL8osBg=="/>
+        </item>
+    </channel>
+</rss>
