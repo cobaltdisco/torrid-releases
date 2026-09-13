@@ -3,6 +3,30 @@
     <channel>
         <title>Torrid</title>
         <item>
+            <title>0.1.2</title>
+            <pubDate>Sun, 13 Sep 2026 21:39:27 +0800</pubDate>
+            <link>https://github.com/cobaltdisco/torrid-releases</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Torrid 0.1.2</h2>
+<p>A small follow-up to 0.1.1.</p>
+<ul>
+  <li>BitTorrent: Torrid now identifies itself to peers and trackers as Torrid (client code “TO”) instead of borrowing another client’s code. Private trackers that check the client identity will see a consistent peer ID and user agent.</li>
+</ul>
+<h2>Torrid 0.1.2（简体中文）</h2>
+<p>0.1.1 的一个小补丁。</p>
+<ul>
+  <li>BT：Torrid 现在以自己的身份（客户端代号「TO」）向其他节点和 tracker 报到，不再借用别家客户端的代号。会核对客户端身份的私有站看到的 peer ID 与 User-Agent 从此一致。</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.2/Torrid-0.1.2.dmg" length="22046838" type="application/octet-stream" sparkle:edSignature="x8A3I3fAR/Cq4XDXETys7sen3L5UAgHnlYoLGI2d5ae1wx7Ej6/7Msr9ETEWRN3JVdeu7nmCMcsfIp5fpUZjDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.2/Torrid3-2.delta" sparkle:deltaFrom="2" length="1353814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ht6yN60uJ0gu1atMTGjk/3hSHZggPykKVjXjRot2rIAUtMB8+M6Ya0RworVcHqTt+CxgY5w/u7lqEK3Mj3osDQ=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.2/Torrid3-1.delta" sparkle:deltaFrom="1" length="4266826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sFsDvwUSILbknKwlZRmCKVek0M+TwIj/WQUev+poUfHD/2EbxzeOx070z5y5POWU2h0byREnXiQPrYEDQxjDCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Sun, 13 Sep 2026 20:20:53 +0800</pubDate>
             <link>https://github.com/cobaltdisco/torrid-releases</link>
@@ -34,7 +58,7 @@
   <li>新的 App 图标，用系统的 Liquid Glass 材质渲染。</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.1/Torrid-0.1.1.dmg" length="22050669" type="application/octet-stream" sparkle:edSignature="BSyfiJODvIXK4EyP3sjEb7WY08MsLyzG5/ddrHoOtp0GZk2ktZe7bDgtqP/hp6R1aOYswxRTqDAuHH/W8XDLAQ=="/>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.2/Torrid-0.1.1.dmg" length="22050669" type="application/octet-stream" sparkle:edSignature="BSyfiJODvIXK4EyP3sjEb7WY08MsLyzG5/ddrHoOtp0GZk2ktZe7bDgtqP/hp6R1aOYswxRTqDAuHH/W8XDLAQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.1/Torrid2-1.delta" sparkle:deltaFrom="1" length="4231614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2MY4cHB5G8HQNckWN+xhX7p8UKiQtFmYWoM10ky56QU8RVFJgNN20YliqV4QPQwGLtWQYId+Y31va/MwfWIzDw=="/>
             </sparkle:deltas>
@@ -65,7 +89,7 @@
   <li>需要 macOS 26；Apple Silicon 与 Intel 都是原生运行。自由软件，GPL-3.0-or-later。</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.1/Torrid-0.1.0.dmg" length="21307203" type="application/octet-stream" sparkle:edSignature="0xCER16EpstOH0bR90PSon9hoZNzizTtpnTrgXyL3rUFS5fvKkYi97WWZf86VghAAWC2ReEIyAB9Jf/iL8osBg=="/>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.2/Torrid-0.1.0.dmg" length="21307203" type="application/octet-stream" sparkle:edSignature="0xCER16EpstOH0bR90PSon9hoZNzizTtpnTrgXyL3rUFS5fvKkYi97WWZf86VghAAWC2ReEIyAB9Jf/iL8osBg=="/>
         </item>
     </channel>
 </rss>
