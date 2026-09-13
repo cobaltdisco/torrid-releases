@@ -3,6 +3,43 @@
     <channel>
         <title>Torrid</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Sun, 13 Sep 2026 20:20:53 +0800</pubDate>
+            <link>https://github.com/cobaltdisco/torrid-releases</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Torrid 0.1.1</h2>
+<p>A polish release based on daily use. No new features; everything reported in the first weeks got fixed.</p>
+<ul>
+  <li>Downloads: the speed limit is now smooth (no more swinging above and below the limit), and fast servers are used to the full — several connections even when the server speaks HTTP/2 or HTTP/3.</li>
+  <li>After a crash, downloads that were running stay paused until you resume them; a normal quit still continues them on the next launch.</li>
+  <li>Removing a task: Delete removes the task and keeps the files, Command-Delete moves the files to the Trash. No confirmation dialog; rows fade out.</li>
+  <li>The list shows real file icons (folders for folder torrents), a fixed-width speed column with direction arrows, and KB / MB units. The toolbar and status bar are simpler; download and upload speeds are always visible.</li>
+  <li>Pause and Resume in the toolbar also stop and start seeding for finished torrents.</li>
+  <li>Settings: speed limits are a checkbox plus a value, number fields can be typed into, the highest-quality choice is a segmented control, the BitTorrent port can be checked from the Internet with Return, and the window is always titled “Settings”.</li>
+  <li>Fixed a crash when removing tasks, and a case where a web link could launch a second copy of the app.</li>
+  <li>New app icon, drawn with the system’s Liquid Glass material.</li>
+</ul>
+<h2>Torrid 0.1.1（简体中文）</h2>
+<p>根据日常使用反馈做的精修版。没有新功能，第一批用下来发现的问题都修了。</p>
+<ul>
+  <li>下载：限速平稳了（不再在上限上下来回摆）；快的服务器能跑满——服务器用 HTTP/2、HTTP/3 时也开多条连接。</li>
+  <li>崩溃后，原本在跑的任务停在「暂停」等你确认；正常退出的下次打开照旧继续。</li>
+  <li>移除任务：Delete 只删任务、文件留着，Command-Delete 把文件移到废纸篓。不再弹确认框；行会淡出。</li>
+  <li>列表显示真实的文件图标（文件夹形式的 BT 就是文件夹）、定宽带箭头的速度列、KB / MB 单位；工具栏和底栏更简洁，下载与上传速度常显。</li>
+  <li>工具栏的暂停 / 继续也管做完的 BT：暂停 = 停止做种，继续 = 开始做种。</li>
+  <li>设置：限速改成开关 + 数值，数字框能直接输入，画质上限改成分段选择，BT 端口按回车可以检测外网是否可达，窗口标题固定叫「设置」。</li>
+  <li>修了移除任务时的闪退，以及网页链接可能再开一个 App 的问题。</li>
+  <li>新的 App 图标，用系统的 Liquid Glass 材质渲染。</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.1/Torrid-0.1.1.dmg" length="22050669" type="application/octet-stream" sparkle:edSignature="BSyfiJODvIXK4EyP3sjEb7WY08MsLyzG5/ddrHoOtp0GZk2ktZe7bDgtqP/hp6R1aOYswxRTqDAuHH/W8XDLAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.1/Torrid2-1.delta" sparkle:deltaFrom="1" length="4231614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2MY4cHB5G8HQNckWN+xhX7p8UKiQtFmYWoM10ky56QU8RVFJgNN20YliqV4QPQwGLtWQYId+Y31va/MwfWIzDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Sat, 12 Sep 2026 04:32:37 +0800</pubDate>
             <link>https://github.com/cobaltdisco/torrid-releases</link>
@@ -28,7 +65,7 @@
   <li>需要 macOS 26；Apple Silicon 与 Intel 都是原生运行。自由软件，GPL-3.0-or-later。</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.0/Torrid-0.1.0.dmg" length="21307203" type="application/octet-stream" sparkle:edSignature="0xCER16EpstOH0bR90PSon9hoZNzizTtpnTrgXyL3rUFS5fvKkYi97WWZf86VghAAWC2ReEIyAB9Jf/iL8osBg=="/>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.1/Torrid-0.1.0.dmg" length="21307203" type="application/octet-stream" sparkle:edSignature="0xCER16EpstOH0bR90PSon9hoZNzizTtpnTrgXyL3rUFS5fvKkYi97WWZf86VghAAWC2ReEIyAB9Jf/iL8osBg=="/>
         </item>
     </channel>
 </rss>
