@@ -12,18 +12,18 @@
             <description><![CDATA[<h2>Torrid 0.2.1</h2>
 <p>New for BitTorrent tasks:</p>
 <ul>
-  <li>Inspector tabs: Overview, Trackers, Peers and Files. Drag the top edge to resize it, or collapse it to a single row.</li>
-  <li>Trackers: See each tracker's status, last result and next announce. Add, remove or edit trackers, and reannounce whenever you like. Trackers you add are used right away.</li>
-  <li>Peers: See who you're connected to and how fast each peer is. Click a column to sort.</li>
+  <li>Inspector tabs: Overview, Trackers, Peers and Files.</li>
+  <li>Trackers: See each tracker's status. Add, remove or edit trackers, and reannounce whenever you like.</li>
+  <li>Peers: See who you're connected to and how fast each peer is.</li>
   <li>New commands in the right-click menu: Reannounce, Force Recheck and Super Seeding.</li>
   <li>Files: Choosing which files to download now has its own tab.</li>
 </ul>
 <h2>Torrid 0.2.1 (简体中文)</h2>
-<p>BT 任务新增：</p>
+<p>BT 下载新增：</p>
 <ul>
-  <li>检查器标签页：概览、Tracker、节点、文件。拖上沿可以调高度，也可以收起成一行。</li>
-  <li>Tracker：查看每个 Tracker 的状态、上次结果和下次汇报时间；可以添加、删除、编辑，随时重新汇报。自己添加的 Tracker 会立刻用上。</li>
-  <li>节点：查看现在连着谁、各自多快；点列头排序。</li>
+  <li>检查器标签页：概览、Tracker、节点、文件。</li>
+  <li>Tracker：查看每个 Tracker 的状态、上次结果和下次汇报时间；可以添加、删除、编辑，随时重新汇报。</li>
+  <li>节点：查看现在连着谁、各自多快。</li>
   <li>右键菜单新增：重新汇报、强制重新校验、超级做种。</li>
   <li>文件：选择要下载的文件现在单独一页。</li>
 </ul>
