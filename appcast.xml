@@ -10,22 +10,18 @@
             <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>Torrid 0.2.0</h2>
-<p>Torrid now feels more at home on the Mac.</p>
+<p>New:</p>
 <ul>
-  <li>Notifications: get a notification when a download finishes or fails. Click it to show the file in Finder. Several tasks finishing at once are combined into one notification. You can turn this off in Settings › General.</li>
-  <li>Dock icon: while downloading, the flame turns blue and burns back to orange from the bottom up — its height is the overall progress. The badge now counts downloads that finished while you were away, and clears when you come back to Torrid.</li>
-  <li>Finder: files that are still downloading show a progress bar in Finder.</li>
-  <li>External disks: ejecting a disk pauses the downloads saved on it, so the disk can be ejected safely. They continue on their own when the disk is connected again — even if Torrid was restarted in between.</li>
-  <li>Error messages now follow the app language; they no longer appear in Chinese in the English interface.</li>
+  <li>Notifications: Get a notification when a download finishes or fails.</li>
+  <li>Dock icon: While downloading, the flame turns blue and burns back to orange from the bottom up as the overall progress.</li>
+  <li>Finder: Files that are still downloading show a progress bar in Finder.</li>
 </ul>
-<h2>Torrid 0.2.0（简体中文）</h2>
-<p>Torrid 更像一个地道的 Mac App 了。</p>
+<h2>Torrid 0.2.0 (简体中文)</h2>
+<p>新增：</p>
 <ul>
-  <li>通知：下载完成或失败时发系统通知，点一下在访达中显示文件；几个任务同时完成会合并成一条。可以在「设置 › 通用」里关掉。</li>
-  <li>Dock 图标：下载时火焰变成蓝色，橙色从下往上烧回来，烧到多高就是总进度。角标改为「你不在时完成的下载数」，回到 Torrid 就清零。</li>
+  <li>通知：下载完成或失败时发系统通知。</li>
+  <li>Dock 图标：下载时火焰变成蓝色，来代表进度。</li>
   <li>访达：还在下载的文件会在访达里显示进度条。</li>
-  <li>外置磁盘：推出磁盘时，存在上面的下载会自动暂停，磁盘可以安全推出；磁盘接回来后自动继续，中途重启过 Torrid 也一样。</li>
-  <li>错误提示现在跟随界面语言，英文界面里不再出现中文报错。</li>
 </ul>
 ]]></description>
             <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid-0.2.0.dmg" length="22311119" type="application/octet-stream" sparkle:edSignature="yCr6OubLP8BS1dOMkXksaVQGrtbJ9dEMUGzSqUbPmidZjbcLdd0caj/jPsnz5AKn0Uj2SdKZVitIkJt2HRt6BA=="/>
@@ -45,19 +41,19 @@
             <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>Torrid 0.1.4</h2>
-<p>Two fixes.</p>
+<p>Fixes:</p>
 <ul>
-  <li>BitTorrent: after removing a finished torrent, adding the same torrent again no longer fails with “already in the list”.</li>
+  <li>BitTorrent: After removing a finished torrent, adding the same torrent again no longer fails with “already in the list”.</li>
   <li>Task list: a magnet link that is still fetching its info now shows a generic file icon instead of a folder.</li>
 </ul>
-<h2>Torrid 0.1.4（简体中文）</h2>
-<p>两处修复。</p>
+<h2>Torrid 0.1.4 (简体中文)</h2>
+<p>修复：</p>
 <ul>
-  <li>BT：移除已完成的种子后，再添加同一个种子不再提示「已经在下载列表里」。</li>
+  <li>BT：移除已完成的种子后，再添加同一个种子不再提示“已经在下载列表里”。</li>
   <li>任务列表：磁力链接还在获取种子信息时，显示通用文件图标，不再显示文件夹。</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid-0.1.4.dmg" length="22132909" type="application/octet-stream" sparkle:edSignature="RY/LCA2mOPEOFh3jcdaL9U+madTNChHoNhGrxeLdHZ6VQQIaLF1gAJisiS71Q5CnScAaOIbSp2HwNmPKGbnnDg=="/>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.4/Torrid-0.1.4.dmg" length="22132909" type="application/octet-stream" sparkle:edSignature="RY/LCA2mOPEOFh3jcdaL9U+madTNChHoNhGrxeLdHZ6VQQIaLF1gAJisiS71Q5CnScAaOIbSp2HwNmPKGbnnDg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.4/Torrid5-4.delta" sparkle:deltaFrom="4" length="4881098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tVDeLcJEg8Damm51rv8gix0IlDa/tY7/VNqabpvIgZzOsHEXK0qNtKZr101PXYgf2G23gcc5fhTB8C/ukMA9Bw=="/>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.4/Torrid5-3.delta" sparkle:deltaFrom="3" length="4896786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ICrULGMIR0JqXPvAp8lFNXpTTyUWh8ypWAZRoJm5s37oKcI0XZJsgWWLZ9smcKNhwWRt3nBxQz32yuedtAmHBQ=="/>
@@ -74,18 +70,10 @@
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>Torrid 0.1.3</h2>
 <p>Wording cleanup.</p>
-<ul>
-  <li>Settings: the video tools are now listed by name (yt-dlp, script runtime, FFmpeg), and three explanatory sentences were removed from the Video, BitTorrent and Speed Limits pages.</li>
-  <li>About window: shorter tagline.</li>
-</ul>
-<h2>Torrid 0.1.3（简体中文）</h2>
-<p>文案整理。</p>
-<ul>
-  <li>设置：视频工具按名字列出（yt-dlp、JavaScript 运行环境、FFmpeg）；视频、BT、限速三页各去掉一句说明。</li>
-  <li>关于窗口：一句话简介更短了。</li>
-</ul>
+<h2>Torrid 0.1.3 (简体中文)</h2>
+<p>文案修改。</p>
 ]]></description>
-            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid-0.1.3.dmg" length="22053108" type="application/octet-stream" sparkle:edSignature="DsIMvNq3YbNUfGKCai74Oqq9/vOkqShlfRcaKC5wP7lo9W1yW9CpgV7JusGq+0M6aL30DPdz+Eb+hacpiSZeDA=="/>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.3/Torrid-0.1.3.dmg" length="22053108" type="application/octet-stream" sparkle:edSignature="DsIMvNq3YbNUfGKCai74Oqq9/vOkqShlfRcaKC5wP7lo9W1yW9CpgV7JusGq+0M6aL30DPdz+Eb+hacpiSZeDA=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.3/Torrid4-3.delta" sparkle:deltaFrom="3" length="1119566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="atJRkTKZ1Zg41uuK+rTqBhpZ9YBgZV2woNaf/Ko060fiUPZiqiGkZZ1ebxiORR46Ok+YzjMaUJwCqGFOJZ0vBg=="/>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.3/Torrid4-2.delta" sparkle:deltaFrom="2" length="1430742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mfwrVmIhkbxBFIucZ5MRAvHaFt8QRk/+5rp0ED4l0cqD6ZvFdqowmbeszZBH80XnoKTgVPBwy1YQjsp+dXY1AA=="/>
