@@ -3,6 +3,53 @@
     <channel>
         <title>Torrid</title>
         <item>
+            <title>0.2.2</title>
+            <pubDate>Tue, 22 Sep 2026 02:51:17 +0800</pubDate>
+            <link>https://github.com/cobaltdisco/torrid-releases</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Torrid 0.2.2</h2>
+<p>New: feeds for BitTorrent.</p>
+<ul>
+  <li>Feeds: Add the address of an RSS or Atom feed you follow, and Torrid checks it every so often (15 minutes by default) while it's open. New items that match your rule are added to your downloads on their own.</li>
+  <li>Rules: “Must contain” and “Must not contain” keywords, or a regular expression. A live preview shows which of the feed's recent items would download, and why the others wouldn't.</li>
+  <li>Nothing floods in: what's already in a feed when you add it is only listed. Downloading starts with the next new item. You can still download any listed item by hand.</li>
+  <li>The same torrent is only ever added once, even if two feeds carry it or you added it yourself.</li>
+  <li>Feed addresses are kept in your keychain, not in Torrid's database.</li>
+  <li>A task that came from a feed says so in the inspector's Overview.</li>
+</ul>
+<p>Also:</p>
+<ul>
+  <li>Selection colors no longer swap as you click around: the sidebar's selection is always gray, and tables are always highlighted in your accent color.</li>
+  <li>Sidebar icons are now gray, and the task counts line up.</li>
+</ul>
+<h2>Torrid 0.2.2 (简体中文)</h2>
+<p>新功能：BT 订阅。</p>
+<ul>
+  <li>订阅：把你在看的 RSS / Atom 订阅地址填进来，Torrid 开着的时候每隔一会儿（默认 15 分钟）去检查一次，符合规则的新条目会自动加进下载列表。</li>
+  <li>规则：「必须包含」「不能包含」关键词，或者正则表达式。旁边实时预览：订阅最近的条目里哪些会下，哪些不会、为什么。</li>
+  <li>不会一下涌进来一堆：添加订阅时里面已有的条目只会列出来，从下一条新的开始才自动下载。列出来的任何一条都可以手动下载。</li>
+  <li>同一个种子只会加一次：两个订阅里都有、或者你已经手动加过，都不会重复。</li>
+  <li>订阅地址存在系统钥匙串里，不进 Torrid 的数据库。</li>
+  <li>来自订阅的任务，在检查器「概览」页里会写明出处。</li>
+</ul>
+<p>另外：</p>
+<ul>
+  <li>选中的颜色不再点来点去地互换：侧栏的选中一直是灰色，表格的选中一直是强调色。</li>
+  <li>侧栏图标改为灰色，任务数对齐了。</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.2/Torrid-0.2.2.dmg" length="23259910" type="application/octet-stream" sparkle:edSignature="+VdEf5Z32B24S8Itq4cEAHaMPywhTP5fNGu0aOc2SFuW4VxHG6yn4sT4K9TCb2a9qolByObItt7r3/dXOzymDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.2/Torrid8-7.delta" sparkle:deltaFrom="7" length="2751594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9J37qBXDKiqng9dMLmo6tBmvtF3YquCPBEFRwPtGHl+KfwEK0sSgPZfwtxfADVzX9qtpGvMZBdfnX1EsF4RSBg=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.2/Torrid8-6.delta" sparkle:deltaFrom="6" length="3020186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WmG96tFLSTerYdRJNmKTsoNkBcRuMLIAnBVZKNOP8uKngAZA9KYwJRI5egA8DX6z/QRqU1afTtuotjSEpSDYCw=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.2/Torrid8-5.delta" sparkle:deltaFrom="5" length="3355058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lVvq6ULIeAFozEQ+GAJw8N4OOeHgthczXcabHEyGwwYPFRb6HHFxi97/rG6HV1vEGiYe7K8FndMDMA0vdvsZDg=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.2/Torrid8-4.delta" sparkle:deltaFrom="4" length="6239782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z8pS3ZVBd6XY0NNzDQShfkIdqUnxRoFd+F/432yq83SylTPn3se9qIRhhq4i/cfC8gAV+HH5j1eHoeSNc6nIDg=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.2/Torrid8-3.delta" sparkle:deltaFrom="3" length="6236222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jw2JKile39Nc9kzW7+5v6IejxOwssfjJHhmIJQwuyEGGstQNyBwidD08CEnrlUmtM56r2Kv+JGmWnnPOPkAJCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Sun, 20 Sep 2026 22:22:30 +0800</pubDate>
             <link>https://github.com/cobaltdisco/torrid-releases</link>
@@ -66,34 +113,6 @@
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid6-3.delta" sparkle:deltaFrom="3" length="5349810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8ol8/lewgImBnV9C5C/l6s8oOqwtPYqcJEQQynJ5SAYVkHy2YOf9HCh7aoUR1WxB5ll7BIbiRUkNfV0hs/jUDg=="/>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid6-2.delta" sparkle:deltaFrom="2" length="5342314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N0e//4UPHyruOCdCuWDV18fI01JWW6kVrq0nbL/HNX21Ys9016px8rtp2XGqHIgd8SgR1nIYclDIJ5sKDX7cBw=="/>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid6-1.delta" sparkle:deltaFrom="1" length="6032714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Xwb/N6hkWcPICwHUDfMWm80DiSSnueZHcHBykadn1Sc0PP0wyurR/8roAsN3tmIR9M3nVqYzmX6qKSjd/naiBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.4</title>
-            <pubDate>Sun, 20 Sep 2026 15:09:01 +0800</pubDate>
-            <link>https://github.com/cobaltdisco/torrid-releases</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Torrid 0.1.4</h2>
-<p>Fixes:</p>
-<ul>
-  <li>BitTorrent: After removing a finished torrent, adding the same torrent again no longer fails with “already in the list”.</li>
-  <li>Task list: a magnet link that is still fetching its info now shows a generic file icon instead of a folder.</li>
-</ul>
-<h2>Torrid 0.1.4 (简体中文)</h2>
-<p>修复：</p>
-<ul>
-  <li>BT：移除已完成的种子后，再添加同一个种子不再提示“已经在下载列表里”。</li>
-  <li>任务列表：磁力链接还在获取种子信息时，显示通用文件图标，不再显示文件夹。</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.4/Torrid-0.1.4.dmg" length="22132909" type="application/octet-stream" sparkle:edSignature="RY/LCA2mOPEOFh3jcdaL9U+madTNChHoNhGrxeLdHZ6VQQIaLF1gAJisiS71Q5CnScAaOIbSp2HwNmPKGbnnDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.4/Torrid5-4.delta" sparkle:deltaFrom="4" length="4881098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tVDeLcJEg8Damm51rv8gix0IlDa/tY7/VNqabpvIgZzOsHEXK0qNtKZr101PXYgf2G23gcc5fhTB8C/ukMA9Bw=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.4/Torrid5-3.delta" sparkle:deltaFrom="3" length="4896786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ICrULGMIR0JqXPvAp8lFNXpTTyUWh8ypWAZRoJm5s37oKcI0XZJsgWWLZ9smcKNhwWRt3nBxQz32yuedtAmHBQ=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.4/Torrid5-2.delta" sparkle:deltaFrom="2" length="5035182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Ez0csaPfvMo1RNQ2wvsKQT0f+haaWxSH5WeMP/7XL30s7eTMRr14rmv13bG6zYKx1M+B8mA01e8NpQsm3ITDg=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.1.4/Torrid5-1.delta" sparkle:deltaFrom="1" length="5766290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RUeJHAXQ+FyQk33IlHJCJbX5g3+XTWaSKoSZKlXkVWsKe1HDvqHlzZ0ZYVm84c1KMPH3qhn1XiLGoEpRSgpKBw=="/>
             </sparkle:deltas>
         </item>
     </channel>
