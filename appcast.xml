@@ -9,21 +9,11 @@
             <sparkle:version>9</sparkle:version>
             <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Torrid 0.2.3</h2>
-<p>New for BitTorrent: create torrents, move downloads, and play videos while they download.</p>
+            <description><![CDATA[<h2>New</h2>
 <ul>
-  <li>Create Torrent: File › Create Torrent… turns a file or folder into a torrent file. Add trackers and a comment if you like, or leave them out. Torrid can start seeding it right away, from where the files already are.</li>
-  <li>Move To…: Move a torrent's files to another folder or disk from the task's context menu, the Task menu, or the inspector. Downloading or seeding carries on afterwards, without checking the files again. Finished torrents can be moved too, and stay finished. If the destination already has a file with the same name, nothing is moved.</li>
-  <li>Play: Each video in a torrent's Files tab has a play button, and Play in the context menu plays the largest one. It opens in a video player already on your Mac, even before the download finishes. Torrid fetches the part you're watching first, including where you skip to. The status column shows how much is buffered.</li>
-  <li>Choose the player in Settings › BitTorrent › Playback, or leave it on Automatic to use the app Finder opens that kind of video with.</li>
-</ul>
-<h2>Torrid 0.2.3 (简体中文)</h2>
-<p>BT 新功能：创建种子、移动位置、边下边播。</p>
-<ul>
-  <li>创建种子：「文件 › 创建种子…」把一个文件或文件夹做成种子文件。Tracker 和备注可填可不填。可以直接从文件现在所在的位置开始做种。</li>
-  <li>移动到…：在任务右键菜单、「任务」菜单或检查器里，把一个种子的文件整体搬到另一个文件夹或另一块盘。搬完接着下载或做种，不用重新校验。已完成的种子也能搬，搬完仍是已完成。目标里已有同名文件时，一个都不搬。</li>
-  <li>播放：检查器「文件」页每个视频都有播放按钮，右键「播放」会播最大的那个。用你 Mac 上已有的播放器打开，没下完也能看。Torrid 先下你正在看的那一段，拖到哪就先下哪里。状态栏会显示缓冲了多少。</li>
-  <li>在「设置 › BT › 播放」里可以固定用哪个播放器；默认「自动」，也就是访达打开这类视频用的那个 App。</li>
+  <li>Create torrents from a file or folder with File › Create Torrent.</li>
+  <li>Move a torrent's files to another folder or disk with Move To in the right-click menu. </li>
+  <li>Play videos while downloading.</li>
 </ul>
 ]]></description>
             <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.3/Torrid-0.2.3.dmg" length="23891829" type="application/octet-stream" sparkle:edSignature="wRFRd9kfunD3I85KTs1kcTpRlu+/e/7u7lBDnGz0XLFYMV5mFQ6XXmA6gMdky3uJ1jpviazEr+dNSSB9k1kzDg=="/>
@@ -42,35 +32,11 @@
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Torrid 0.2.2</h2>
-<p>New: feeds for BitTorrent.</p>
+            <description><![CDATA[<h2>New</h2>
 <ul>
-  <li>Feeds: Add the address of an RSS or Atom feed you follow, and Torrid checks it every so often (15 minutes by default) while it's open. New items that match your rule are added to your downloads on their own.</li>
-  <li>Rules: “Must contain” and “Must not contain” keywords, or a regular expression. A live preview shows which of the feed's recent items would download, and why the others wouldn't.</li>
-  <li>Nothing floods in: what's already in a feed when you add it is only listed. Downloading starts with the next new item. You can still download any listed item by hand.</li>
-  <li>The same torrent is only ever added once, even if two feeds carry it or you added it yourself.</li>
-  <li>Feed addresses are kept in your keychain, not in Torrid's database.</li>
-  <li>A task that came from a feed says so in the inspector's Overview.</li>
-</ul>
-<p>Also:</p>
-<ul>
-  <li>Selection colors no longer swap as you click around: the sidebar's selection is always gray, and tables are always highlighted in your accent color.</li>
-  <li>Sidebar icons are now gray, and the task counts line up.</li>
-</ul>
-<h2>Torrid 0.2.2 (简体中文)</h2>
-<p>新功能：BT 订阅。</p>
-<ul>
-  <li>订阅：把你在看的 RSS / Atom 订阅地址填进来，Torrid 开着的时候每隔一会儿（默认 15 分钟）去检查一次，符合规则的新条目会自动加进下载列表。</li>
-  <li>规则：「必须包含」「不能包含」关键词，或者正则表达式。旁边实时预览：订阅最近的条目里哪些会下，哪些不会、为什么。</li>
-  <li>不会一下涌进来一堆：添加订阅时里面已有的条目只会列出来，从下一条新的开始才自动下载。列出来的任何一条都可以手动下载。</li>
-  <li>同一个种子只会加一次：两个订阅里都有、或者你已经手动加过，都不会重复。</li>
-  <li>订阅地址存在系统钥匙串里，不进 Torrid 的数据库。</li>
-  <li>来自订阅的任务，在检查器「概览」页里会写明出处。</li>
-</ul>
-<p>另外：</p>
-<ul>
-  <li>选中的颜色不再点来点去地互换：侧栏的选中一直是灰色，表格的选中一直是强调色。</li>
-  <li>侧栏图标改为灰色，任务数对齐了。</li>
+  <li>Subscribe to RSS and Atom feeds to download new torrents automatically.</li>
+  <li>Filter feed items with "Must contain" and "Must not contain" keywords, or with a regular expression.</li>
+  <li>Feed addresses are stored in your keychain rather than in Torrid's database.</li>
 </ul>
 ]]></description>
             <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.2/Torrid-0.2.2.dmg" length="23259910" type="application/octet-stream" sparkle:edSignature="+VdEf5Z32B24S8Itq4cEAHaMPywhTP5fNGu0aOc2SFuW4VxHG6yn4sT4K9TCb2a9qolByObItt7r3/dXOzymDw=="/>
@@ -89,23 +55,12 @@
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Torrid 0.2.1</h2>
-<p>New for BitTorrent tasks:</p>
+            <description><![CDATA[<h2>New</h2>
 <ul>
-  <li>Inspector tabs: Overview, Trackers, Peers and Files.</li>
-  <li>Trackers: See each tracker's status. Add, remove or edit trackers, and reannounce whenever you like.</li>
-  <li>Peers: See who you're connected to and how fast each peer is.</li>
-  <li>New commands in the right-click menu: Reannounce, Force Recheck and Super Seeding.</li>
-  <li>Files: Choosing which files to download now has its own tab.</li>
-</ul>
-<h2>Torrid 0.2.1 (简体中文)</h2>
-<p>BT 下载新增：</p>
-<ul>
-  <li>检查器标签页：概览、Tracker、节点、文件。</li>
-  <li>Tracker：查看每个 Tracker 的状态、上次结果和下次汇报时间；可以添加、删除、编辑，随时重新汇报。</li>
-  <li>节点：查看现在连着谁、各自多快。</li>
-  <li>右键菜单新增：重新汇报、强制重新校验、超级做种。</li>
-  <li>文件：选择要下载的文件现在单独一页。</li>
+  <li>The inspector for BitTorrent tasks now has Trackers, Peers and Files tabs.</li>
+  <li>Trackers tab: view each tracker's status, add, edit or remove trackers, and reannounce manually.</li>
+  <li>Peers tab: view connected peers and the transfer speed of each.</li>
+  <li>Files tab: choose which files to download.</li>
 </ul>
 ]]></description>
             <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.1/Torrid-0.2.1.dmg" length="22640056" type="application/octet-stream" sparkle:edSignature="Jfk1c2EiUfJTJcAcOZf13Yz3Q71Nsk3Y/zSLxVGRq8cI1to05bSCJDiQ9/y5oPgfHPpiu+2tZKtj8R6m7B/ABw=="/>
