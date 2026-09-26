@@ -3,6 +3,39 @@
     <channel>
         <title>Torrid</title>
         <item>
+            <title>0.2.3</title>
+            <pubDate>Sun, 27 Sep 2026 02:54:16 +0800</pubDate>
+            <link>https://github.com/cobaltdisco/torrid-releases</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Torrid 0.2.3</h2>
+<p>New for BitTorrent: create torrents, move downloads, and play videos while they download.</p>
+<ul>
+  <li>Create Torrent: File › Create Torrent… turns a file or folder into a torrent file. Add trackers and a comment if you like, or leave them out. Torrid can start seeding it right away, from where the files already are.</li>
+  <li>Move To…: Move a torrent's files to another folder or disk from the task's context menu, the Task menu, or the inspector. Downloading or seeding carries on afterwards, without checking the files again. Finished torrents can be moved too, and stay finished. If the destination already has a file with the same name, nothing is moved.</li>
+  <li>Play: Each video in a torrent's Files tab has a play button, and Play in the context menu plays the largest one. It opens in a video player already on your Mac, even before the download finishes. Torrid fetches the part you're watching first, including where you skip to. The status column shows how much is buffered.</li>
+  <li>Choose the player in Settings › BitTorrent › Playback, or leave it on Automatic to use the app Finder opens that kind of video with.</li>
+</ul>
+<h2>Torrid 0.2.3 (简体中文)</h2>
+<p>BT 新功能：创建种子、移动位置、边下边播。</p>
+<ul>
+  <li>创建种子：「文件 › 创建种子…」把一个文件或文件夹做成种子文件。Tracker 和备注可填可不填。可以直接从文件现在所在的位置开始做种。</li>
+  <li>移动到…：在任务右键菜单、「任务」菜单或检查器里，把一个种子的文件整体搬到另一个文件夹或另一块盘。搬完接着下载或做种，不用重新校验。已完成的种子也能搬，搬完仍是已完成。目标里已有同名文件时，一个都不搬。</li>
+  <li>播放：检查器「文件」页每个视频都有播放按钮，右键「播放」会播最大的那个。用你 Mac 上已有的播放器打开，没下完也能看。Torrid 先下你正在看的那一段，拖到哪就先下哪里。状态栏会显示缓冲了多少。</li>
+  <li>在「设置 › BT › 播放」里可以固定用哪个播放器；默认「自动」，也就是访达打开这类视频用的那个 App。</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.3/Torrid-0.2.3.dmg" length="23891829" type="application/octet-stream" sparkle:edSignature="wRFRd9kfunD3I85KTs1kcTpRlu+/e/7u7lBDnGz0XLFYMV5mFQ6XXmA6gMdky3uJ1jpviazEr+dNSSB9k1kzDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.3/Torrid9-8.delta" sparkle:deltaFrom="8" length="3014814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pOIrGW1FNBH/BN7FH2duBQmpy2iAx2/xhZ7w6G2FInoWKi5zGhkamveOQvBOc7BQnJ9vjDrlTrDxN8tJ2RGzCw=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.3/Torrid9-7.delta" sparkle:deltaFrom="7" length="3530110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cFwBV7wuM6+ie590Pc/GXU+LdQRrzNY0aJPKIhMpvM9GUmWAy0QFHw2TVUOFutPC4rPVsKwdrylvhl1pYLYXAA=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.3/Torrid9-6.delta" sparkle:deltaFrom="6" length="3748350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NdofcVH0qIrAiKPTVO7Z4lWg4dMrvN/FGirf9Lu+mlBI+T4FWIVkDL2vkUPcfAJ+YJsiLBF7QOuwpZjrQhveCw=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.3/Torrid9-5.delta" sparkle:deltaFrom="5" length="4045954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8EfIb6NUJO9jXlx7satkY1KzbTsciIqFkkN4kvzElgYVEoCdjG3rtx0qMjxB79W3IaC33C00SwgJimSHaGWPAA=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.3/Torrid9-4.delta" sparkle:deltaFrom="4" length="6830142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="j8i9z60o/10/BpL5mmxfJEbn5+6eUvm64RZE+hE656SIaqnIL+cykuivisvNUtmYJDn2g5xATPEB4Zp0/99NCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.2</title>
             <pubDate>Tue, 22 Sep 2026 02:51:17 +0800</pubDate>
             <link>https://github.com/cobaltdisco/torrid-releases</link>
@@ -82,37 +115,6 @@
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.1/Torrid7-4.delta" sparkle:deltaFrom="4" length="5694486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="V9ASkFSnXsqDgCRgQUgTIabaPUFuY/99/oJiKKzusEI6aMFAdyO/GCsV431bnOxx17cB4mJcHNxgu+LHoU07Aw=="/>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.1/Torrid7-3.delta" sparkle:deltaFrom="3" length="5689278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LTTMRpAK+Z9gXyUUAe6xehzK76IX0PaV9qz3HMIqsCzVV5UUDuImVFkQTlVyyN0NFGVErg4aa0Qf+xja9xs0Dg=="/>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.1/Torrid7-2.delta" sparkle:deltaFrom="2" length="5705282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z7UPjK3UdW3cOBKH82e0ylXspNrFHYu8pFD2+DcP+WSB9nXH0Rwuun8BA7LIDSmqN4cR93vv1uirjiL+u7+wCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Sun, 20 Sep 2026 18:57:33 +0800</pubDate>
-            <link>https://github.com/cobaltdisco/torrid-releases</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Torrid 0.2.0</h2>
-<p>New:</p>
-<ul>
-  <li>Notifications: Get a notification when a download finishes or fails.</li>
-  <li>Dock icon: While downloading, the flame turns blue and burns back to orange from the bottom up as the overall progress.</li>
-  <li>Finder: Files that are still downloading show a progress bar in Finder.</li>
-</ul>
-<h2>Torrid 0.2.0 (简体中文)</h2>
-<p>新增：</p>
-<ul>
-  <li>通知：下载完成或失败时发系统通知。</li>
-  <li>Dock 图标：下载时火焰变成蓝色，来代表进度。</li>
-  <li>访达：还在下载的文件会在访达里显示进度条。</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid-0.2.0.dmg" length="22311119" type="application/octet-stream" sparkle:edSignature="yCr6OubLP8BS1dOMkXksaVQGrtbJ9dEMUGzSqUbPmidZjbcLdd0caj/jPsnz5AKn0Uj2SdKZVitIkJt2HRt6BA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid6-5.delta" sparkle:deltaFrom="5" length="2432090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5XQVTbe3GWxLlOMqk/pTLUsR10xEGL3dEk5CZdXtLkuKGUYaxPv+euIs2Q3vJ/4dXlJHYkAihXlCPNDjWVybBw=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid6-4.delta" sparkle:deltaFrom="4" length="5358658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gHTpl+MauoHB/np6H6Nlq32n5A7gg1hHDarudQebBRv5DbqbuZ10xQsDGbNmGCoG4riW9NrTYaerADWh6LnyBw=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid6-3.delta" sparkle:deltaFrom="3" length="5349810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8ol8/lewgImBnV9C5C/l6s8oOqwtPYqcJEQQynJ5SAYVkHy2YOf9HCh7aoUR1WxB5ll7BIbiRUkNfV0hs/jUDg=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid6-2.delta" sparkle:deltaFrom="2" length="5342314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N0e//4UPHyruOCdCuWDV18fI01JWW6kVrq0nbL/HNX21Ys9016px8rtp2XGqHIgd8SgR1nIYclDIJ5sKDX7cBw=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.0/Torrid6-1.delta" sparkle:deltaFrom="1" length="6032714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Xwb/N6hkWcPICwHUDfMWm80DiSSnueZHcHBykadn1Sc0PP0wyurR/8roAsN3tmIR9M3nVqYzmX6qKSjd/naiBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
