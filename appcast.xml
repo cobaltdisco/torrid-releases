@@ -12,15 +12,11 @@
             <description><![CDATA[<h2>New</h2>
 <ul>
   <li>Use an HTTP or SOCKS5 proxy for downloads, torrents, video links and the built-in browser, set in Settings › Proxy.</li>
-  <li>Let BitTorrent bypass the proxy with one switch.</li>
-  <li>If the proxy can't be reached, Torrid tells you instead of quietly connecting directly.</li>
-  <li>Proxy passwords are stored in your keychain.</li>
 </ul>
 
 <h2>Improved</h2>
 <ul>
   <li>Downloads recover from stalled connections and responses that end early.</li>
-  <li>Downloads work with more servers, including ones that limit requests or serve the same file from several mirrors.</li>
 </ul>
 ]]></description>
             <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.4/Torrid-0.2.4.dmg" length="24168258" type="application/octet-stream" sparkle:edSignature="dKdSNEkO4AS3fJI71fY8qAYHJvHEeLpQdEfbzEsdZ/gbfgbAC3N4FrCsSLRZ5mS8+hjVBKHVgqPlDHMfpN6WBg=="/>
