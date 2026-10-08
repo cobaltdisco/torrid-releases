@@ -3,6 +3,27 @@
     <channel>
         <title>Torrid</title>
         <item>
+            <title>0.2.9</title>
+            <pubDate>Thu, 08 Oct 2026 10:19:19 +0800</pubDate>
+            <link>https://github.com/cobaltdisco/torrid-releases</link>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.2.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Fixed</h2>
+<ul>
+  <li>Fixed several bugs and improved reliability.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.9/Torrid-0.2.9.dmg" length="26090217" type="application/octet-stream" sparkle:edSignature="IW78aHKLcDHRGRfF69xl1HQgkEs+lzCDG+RAsxCjLQ7ItuZUbF2ZCmtmr/ODZBMUJthT9WM02hgeFOSMRCLoDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.9/Torrid15-14.delta" sparkle:deltaFrom="14" length="2905114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yNlR7l73hn8HGSvuhiVRNWfCBbB3ubCRI05qFE2aiFPXHfEIZPoWUE6/2S1VGd13qi1kWOJwhgvPAcDdkZo2AA=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.9/Torrid15-13.delta" sparkle:deltaFrom="13" length="3355530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i4MWO/uxCh+VO92555BjCgo5ZCyRiR/H/nUDhpsurdMQVA3mIFp3t7u8U44MN/LEUKqY5s6qfuYESjNDIEhXDA=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.9/Torrid15-12.delta" sparkle:deltaFrom="12" length="4931894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RWy66Y7PXNUrKejtT94FapcSpl1Sakpw+HO6gZVRzNkBSax/seN1v/Lvt/tjg5nstsDJuPy6otE/bmUJwQQyDQ=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.9/Torrid15-11.delta" sparkle:deltaFrom="11" length="6218210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QCEkcbJE2STPJ7K0rsfjBRJhe53c38PiFpDVsK4yt5HRXKc1ffGrJAMdyuEwT2GBu6A/LAnAv5Fk2yfCPhZfDg=="/>
+                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.9/Torrid15-10.delta" sparkle:deltaFrom="10" length="6272678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8VCLgTAoz4JDXrGrVSJm5avvGSbR+8kGQBBLxVDKwljhysj5VPxMriG71Jv2+Ti6mLtS5punCrEDaLaxKpgDAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.8</title>
             <pubDate>Wed, 07 Oct 2026 00:11:17 +0800</pubDate>
             <link>https://github.com/cobaltdisco/torrid-releases</link>
@@ -47,44 +68,6 @@
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.7/Torrid13-10.delta" sparkle:deltaFrom="10" length="5722030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P/MvjReKzyNeMAXa5+M4QWMmR1Pg0p4ORuwVP2ijWP4sTUv9w/7omQuh80nysliBfA3SNvSbZfNVM/WRrCr9Aw=="/>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.7/Torrid13-9.delta" sparkle:deltaFrom="9" length="6023834" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lJ7xXxMQexEyZdWw0zcCOj/BNOBExboDDV6r3nWrv/TBXY46+7Ay9ZVq2W5doqt8KKRlicRFVSaLoFJEPxLADw=="/>
                 <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.7/Torrid13-8.delta" sparkle:deltaFrom="8" length="6515218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sQ0G7Hanh6kcGF2sqmkSlmxdF7BYk+DVBRWz6HQOpeqSs4pE3pmFbdlk9iUnlRkn/i3jrR/RVzth9+GA7CKBBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.6</title>
-            <pubDate>Sun, 04 Oct 2026 18:54:33 +0800</pubDate>
-            <link>https://github.com/cobaltdisco/torrid-releases</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>New</h2>
-<ul>
-  <li>Redesigned browser window, with a sidebar listing every video on the page.</li>
-  <li>Built-in ad blocking, with filter lists that update automatically.</li>
-  <li>Clear the browser's cache or website data in Settings › Browser.</li>
-</ul>
-
-<h2>Improved</h2>
-<ul>
-  <li>Streaming videos download much faster.</li>
-  <li>Torrent contents are grouped by folder.</li>
-  <li>Video downloads recover from stalls, and the speed display is steadier.</li>
-</ul>
-
-<h2>Fixed</h2>
-<ul>
-  <li>Command-C copies text in the built-in browser.</li>
-  <li>Browser windows no longer reopen when Torrid launches.</li>
-  <li>Pages that try to open another app no longer show an error.</li>
-  <li>Many other fixes.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.6/Torrid-0.2.6.dmg" length="25651551" type="application/octet-stream" sparkle:edSignature="E5ab4dHSRiR52yuq0+MdmhZ4eeAzyFOMILAQMTFN05Gwu9VYda8UmodeMtRvulTZu6m0SVi490IzmcACrpW1DQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.6/Torrid12-11.delta" sparkle:deltaFrom="11" length="3993046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KzWs8cLEB/ExP+XFRYbdGkqG61jECtyKxvH4/RT3A8UYxLzB333FC6Dr19J0VJj3sWfx5DJyru8PJe+l1YKuCw=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.6/Torrid12-10.delta" sparkle:deltaFrom="10" length="4081006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S5Lj831xDR/LAmF0Iien3ti6t9C02/bGYluvEUPhWTA/sNlFjCz2pORD/ZTZKpDzgYmms457145F93EQAgvHCA=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.6/Torrid12-9.delta" sparkle:deltaFrom="9" length="4431986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3CRaOfQ0yKmUtZOtYAH6B9Ib3ghvnMdvL8Muo6Sp5jKcV3XIECTc2SMr9xFa4RKOI2QL/YvmMFdLmRcHSt3XBQ=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.6/Torrid12-8.delta" sparkle:deltaFrom="8" length="4974702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D85POfZGsdszAcXztCTT8bmpGA++2c5ALMI9J/5mHmrGpi2ox8TVmxwE1YNelyrv1lMkD5vzfZ+XXOomGudlCg=="/>
-                <enclosure url="https://github.com/cobaltdisco/torrid-releases/releases/download/v0.2.6/Torrid12-7.delta" sparkle:deltaFrom="7" length="5367690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="opESRmzidx4QRAW7fHPlRz2zxkIH8YNPOq6toG6cuKANqu0ot49wsG+6H8RyAf3QihNQKjGEItYvaBvXZTb1CA=="/>
             </sparkle:deltas>
         </item>
     </channel>
